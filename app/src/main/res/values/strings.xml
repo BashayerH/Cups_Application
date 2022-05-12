@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cups Application</string>
+    <string name="start">Start</string>
+    <string name="with">With</string>
+    <string name="good_idea">Good Idea</string>
+    <string name="coups_of_tea">coups of tea</string>
+    <string name="nice_cups">Nice cups</string>
+    <string name="cups_of_coffee">cups of coffee</string>
+    <string name="title_activity_tea_details">TeaDetails</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="cups_application">Cups Application</string>
+    <string name="start_shopping">start shopping</string>
+    <string name="cups_of_tea">cups of tea</string>
+</resources>
