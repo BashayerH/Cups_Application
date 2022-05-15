@@ -7,14 +7,16 @@
         <entry key="app/src/main/res/layout/activity_cart.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/layout/activity_coffee_details.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_coffee_page.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_log_in.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.125" />
         <entry key="app/src/main/res/layout/activity_tea_details.xml" value="0.1453125" />
         <entry key="app/src/main/res/layout/activity_tea_paga.xml" value="0.25" />
         <entry key="app/src/main/res/layout/cart_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/cofee_item.xml" value="0.17604166666666668" />
         <entry key="app/src/main/res/layout/coffee_item.xml" value="0.17604166666666668" />
         <entry key="app/src/main/res/layout/end_dialog.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/start_dialog.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/signup_dialog.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/start_dialog.xml" value="0.25" />
         <entry key="app/src/main/res/layout/tea_item.xml" value="0.25" />
       </map>
     </option>

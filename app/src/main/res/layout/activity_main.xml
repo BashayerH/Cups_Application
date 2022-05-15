@@ -59,7 +59,7 @@
         android:id="@+id/goodIdea"
         android:layout_width="242dp"
         android:layout_height="31dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/tapestry_regular"
         android:text="@string/good_idea"
         android:textAlignment="center"
@@ -70,6 +70,20 @@
         app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/logBtn"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/coffee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/login_icon" />
 
     <TextView
         android:id="@+id/niceCups"
@@ -104,15 +118,16 @@
         android:layout_width="239dp"
         android:layout_height="48dp"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="88dp"
         android:backgroundTint="@color/brown"
         android:text="@string/start_shopping"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/niceCups"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.086" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

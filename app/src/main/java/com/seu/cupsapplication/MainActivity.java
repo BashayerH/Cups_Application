@@ -12,14 +12,17 @@ import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.seu.cupsapplication.Coffee.CoffeePage;
+import com.seu.cupsapplication.Coffee.User;
 import com.seu.cupsapplication.Tea.TeaPage;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView tea_text,cof_text;
-    ImageView imgCof , imgTea;
+    TextView tea_text,cof_text,displayName;
+    ImageView imgCof , imgTea,login;
     LottieAnimationView coffee;
     Button start_dialog;
+    TinyDB db;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,13 +30,21 @@ public class MainActivity extends AppCompatActivity {
 
         coffee =findViewById(R.id.coffee);
         start_dialog = findViewById(R.id.startBtn);
+        login = findViewById(R.id.logBtn);
+        db= new TinyDB(this);
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),LogIn.class);
+                startActivity(intent);
+            }
+        });
 
         start_dialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 show_dialog();
-
-
 
             }
         });
@@ -49,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         cof_text = startD.findViewById(R.id.textViewCofe);
         imgCof =startD.findViewById(R.id.imageViewCof);
         imgTea =startD.findViewById(R.id.imageViewTea);
+
 
         imgTea.setOnClickListener(new View.OnClickListener() {
             @Override
